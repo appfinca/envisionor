@@ -1,14 +1,6 @@
-// Google Analytics
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'UA-122468537-1');
-
 $(document).ready(function() {
   // GA Scroll Depth plugin
-  jQuery.scrollDepth({
-    gtmOverride: true
-  });
+  // jQuery.scrollDepth();
 
   var category = window.location.pathname;
   parseQueryString();
