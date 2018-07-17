@@ -1,0 +1,28 @@
+#banner {
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* background-position: bottom; */
+  /* background-color: rgba(0, 0, 0, 0.84); */
+  /* background-image: url("../img/banner-reader.svg"); */
+  padding: 0 0 3rem;
+  margin: 0;
+  background-color: #fff;
+}
+
+#banner .navbar-brand img {
+  height: 1.75rem;
+  position: relative;
+  bottom: 0.05rem;
+}
+
+#faq .btn {
+  color: rgba(0,0,0,.5);
+  border-color: rgba(0,0,0,.5);
+  background-color: rgba(0,0,0,0);
+}
+
+#faq .btn:hover {
+  color: rgba(0,0,0,.84);
+  border-color: rgba(0,0,0,.84);
+  background-color: rgba(0,0,0,0);
+}

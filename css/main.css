@@ -1,0 +1,118 @@
+body {
+  position: relative;
+  line-height: 1.4;
+  color: rgba(0,0,0,.84);
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  h1 {
+    font-size: 2.25rem;
+  }
+  h2 {
+    font-size: 1.875rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+}
+
+.btn-circle {
+  height: 2.25rem;
+  width: 2.25rem;
+  padding: 0;
+  line-height: 2rem;
+  border-radius: 9999px;
+}
+
+.font-brand {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+
+.font-title {
+  font-family: 'Domine', serif;
+  font-weight: bold;
+}
+
+.font-content {
+  font-family: 'Lora', serif;
+}
+
+.navbar {
+  padding: 1rem 0;
+}
+
+.modal {
+  margin-top: 4rem;
+}
+
+.modal-header {
+  border-bottom-width: 0;
+}
+
+.modal-footer {
+  border-top-width: 0;
+}
+
+header {
+  padding-bottom: 3rem;
+}
+
+section {
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+
+footer {
+  padding: 4rem 1rem 3rem;
+  color: rgba(255,255,255,.5);
+  background-color: #333;
+}
+
+footer a {
+  color: rgba(255,255,255,.8);
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+footer .btn-share {
+  color: rgba(255,255,255,.5);
+  border-color: rgba(255,255,255,.5);
+  background-color: rgba(255,255,255,0);
+}
+
+footer .btn-share:hover {
+  color: #333;
+  border-color: #fff    ;
+  background-color: #fff;
+}
