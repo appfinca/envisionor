@@ -8,14 +8,17 @@ $(document).ready(function() {
   // GA Scroll Depth plugin
   jQuery.scrollDepth();
 
+  var category = window.location.pathname;
   parseQueryString();
-  var category = location.queryString.ref || document.referrer || 'direct';
-  var label = window.location.pathname;
+  var label = location.queryString.ref || document.referrer || 'direct';
 
   // Google Analytics
   $('a, button').click(function(e) {
     if (this.id) {
-      ga('send', 'event', category, this.id, label);
+      gtag('event', this.id, {
+        'event_category' : category,
+        'event_label' : label
+      });
     }
   });
 
@@ -38,7 +41,10 @@ $(document).ready(function() {
       e.stopPropagation();
       return false;
     }
-    ga('send', 'event', category, 'form-modal', label);
+    gtag('event', 'form-modal', {
+      'event_category' : category,
+      'event_label' : label
+    });
     setTimeout(function() {
       $('#modal').modal('hide');
       $('#modal-confirm').modal('show');
@@ -54,7 +60,10 @@ $(document).ready(function() {
       e.stopPropagation();
       return false;
     }
-    ga('send', 'event', category, 'from-feedback', label);
+    gtag('event', 'form-feedback', {
+      'event_category' : category,
+      'event_label' : label
+    });
     setTimeout(function() {
       $('#modal-confirm').modal('show');
     }, 500);
