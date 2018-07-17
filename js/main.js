@@ -6,7 +6,9 @@ gtag('config', 'UA-122468537-1');
 
 $(document).ready(function() {
   // GA Scroll Depth plugin
-  jQuery.scrollDepth();
+  jQuery.scrollDepth({
+    gtmOverride: true
+  });
 
   var category = window.location.pathname;
   parseQueryString();
