@@ -4,7 +4,7 @@
     <loc>http://www.envisionor.com</loc>
     <image:image>
       <image:loc>http://www.envisionor.com/img/share.png</image:loc>
-      <image:caption>Envisionor - A place for Medium readers and writers to exchange ideas and create the next great stories together.</image:caption>
+      <image:caption>Envisionor - best way for YouTubers to get inspired and paid.</image:caption>
     </image:image>
     <!-- <video:video>
       <video:content_loc>
@@ -18,17 +18,17 @@
     </video:video> -->
     <priority>1.0</priority>
   </url>
-  <url>
+  <!-- <url>
     <loc>http://www.envisionor.com/envisionor-an-alternative-to-meidum-partner-program-and-membership.html</loc>
     <image:image>
       <image:loc>http://www.envisionor.com/img/share.png</image:loc>
       <image:caption>Envisionor - A place for Medium readers and writers to exchange ideas and create the next great stories together.</image:caption>
     </image:image>
     <priority>1.0</priority>
-  </url>
+  </url> -->
   <url>
     <loc>http://www.envisionor.com/support.html</loc>
-    <priority>0.2</priority>
+    <priority>0.5</priority>
   </url>
   <url>
   <!-- <url>

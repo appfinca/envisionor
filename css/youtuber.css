@@ -91,6 +91,15 @@
   text-indent: -0.7em;
 }
 
+#why .card {
+  color: #0c5460;
+  background-color: #e0fcf9;
+}
+
+#why .card .icon {
+  opacity: 0.7;
+}
+
 #pricing .legend {
   padding: .2rem .7rem;
   font-size: 87.5%;
@@ -98,7 +107,7 @@
   border-radius: .2rem;
 }
 
-#pricing .legend-writer {
+#pricing .legend-youtuber {
   background-color: #28a745;
 }
 
@@ -127,14 +136,16 @@
 }
 
 #join .btn-cta {
-  color: #00d9cd;
+  color: #28a745;
   background-color: #fff;
   border-color: #fff;
+  box-shadow: 0px 0px 60px -20px rgba(0,0,0,.1), 0px 0px 20px -5px rgba(0,0,0,.2)
 }
 
 #join .btn-cta:hover {
   color: #fff;
-  background-color: #00d9cd;
+  border-color: #28a745;
+  background-color: #28a745;
 }
 
 #join img {
